@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <h1>Student Result Manager</h1>
+        <p>Enter the student details and marks of all subjects to calculate the result instantly.</p>
+        <span class="header-line"></span>
+    </div>
+    
+    <div class="form-container">
+        <div class="form-header">
+            <h2><i class="fa-solid fa-user"></i>
+            Student Information</h2>
+        </div>
+        <div class="student-details">
+            <div class="form-group">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" placeholder="Enter student name">
+            </div>
+            <div class="form-group">
+                <label for="rollNumber">Roll Number:</label>
+                <input type="number" id="rollNumber" placeholder="Enter roll number">
+            </div>
+        </div>
+        <div class="section-title">
+            <span class="section-icon"><i class="fa-solid fa-book"></i></span>
+            <h2>Subject Marks</h2>
+        </div>
+        <div class="subject-header">
+            <span>No.</span>
+            <span>Subject Name</span>
+            <span>Marks (0 - 100)</span>
+        </div>
+<div class="form-group subject-row">
+    <span class="subject-number">01</span>
+
+    <input type="text" id="firstsubject" placeholder="Enter name of First Subject">
+
+    <input type="number" id="firstsubjectmarks" placeholder="Enter marks of First Subject" min="0" max="100">
+</div>
+<div class="form-group subject-row">
+    <span class="subject-number">02</span>
+
+    <input type="text" id="secondsubject" placeholder="Enter name of Second Subject">
+
+    <input type="number" id="secondsubjectmarks" placeholder="Enter marks of Second Subject" min="0" max="100">
+</div>
+<div class="form-group subject-row">
+    <span class="subject-number">03</span>
+
+    <input type="text" id="thirdsubject" placeholder="Enter name of Third Subject">
+    <input type="number" id="thirdsubjectmarks" placeholder="Enter marks of Third Subject" min="0" max="100">
+</div>
+<div class="form-group subject-row">
+    <span class="subject-number">04</span>
+
+    <input type="text" id="fourthsubject" placeholder="Enter name of Fourth Subject">
+    <input type="number" id="fourthsubjectmarks" placeholder="Enter marks of Fourth Subject" min="0" max="100">
+</div>
+<div class="form-group subject-row">
+    <span class="subject-number">05</span>
+
+    <input type="text" id="fifthsubject" placeholder="Enter name of Fifth Subject">
+    <input type="number" id="fifthsubjectmarks" placeholder="Enter marks of Fifth Subject" min="0" max="100">
+</div>
+<div class="form-group subject-row">
+    <span class="subject-number">06</span>
+    <input type="text" id="sixthsubject" placeholder="Enter name of Sixth Subject">
+    <input type="number" id="sixthsubjectmarks" placeholder="Enter marks of Sixth Subject" min="0" max="100">
+</div>
+
+    <button id="calculateResult" class="calculate-btn">
+        <i class="fa-solid fa-calculator"></i>
+        Calculate Result
+    </button>
+</div>
+
+<div id="result">
+    <div class="result-header">
+        <h2>
+            <i class="fa-solid fa-trophy"></i>
+            Result</h2>
+    </div>
+    <div class="result-content">
+        <div class="student-result-details">
+            <div class="result-item">
+                <i class="fa-solid fa-user"></i>
+                <div>
+                    <span>Student Name</span>
+                    <strong id="resultStudentName">_</strong>
+                </div>
+            </div>
+            <div class="result-item">
+                <i class="fa-solid fa-id-card"></i>
+                <div>
+                    <span>Roll Number</span>
+                    <strong id="resultRollNumber">_</strong>
+                </div>
+            </div>
+            <div class="result-item">
+                <i class="fa-solid fa-chart-column"></i>
+                <div>
+                    <span>Total Marks</span>
+                    <strong id="resultTotalMarks">_</strong>
+                </div>
+            </div>
+            <div class="result-item">
+                <i class="fa-solid fa-chart-pie"></i>
+                <div>
+                    <span>Percentage</span>
+                    <strong id="resultPercentage">_</strong>
+                </div>
+            </div>
+            <div class="result-item">
+                <i class="fa-solid fa-award"></i>
+                <div>
+                    <span>Grade</span>
+                    <strong id="resultGrade">_</strong>
+                </div>
+            </div>
+            <div class="result-item">
+                <i class="fa-solid fa-shield-alt"></i>
+                <div>
+                    <span>Result</span>
+                    <strong id="resultStatus">_</strong>
+                </div>
+            </div>
+        </div>
+        <div class="performance-section">
+            <div class="performance-circle">
+                <strong id="circlePercentage">0%</strong>
+                <span id="performanceText">Waiting...</span>
+            </div>
+            <div class="performance-cards">
+                <div class="performance-card minimum">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <div>
+                        <span>Minimum Marks</span>
+                        <strong id="minimumSubject">_</strong>
+                        <b id="minimumMarks">_</b>
+                    </div>
+                </div>
+                <div class="performance-card maximum">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <div>
+                        <span>Maximum Marks</span>
+                        <strong id="maximumSubject">_</strong>
+                        <b id="maximumMarks">_</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-message" id="resultMessage">
+        
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
