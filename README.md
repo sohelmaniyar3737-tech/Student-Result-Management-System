@@ -1,4 +1,4 @@
-# 🎓 Student Result Management System
+#  Student Result Management System
 
 A Student Result Management System that I am developing as a **full-stack web application**.
 
@@ -6,13 +6,13 @@ Currently, this project is in the **frontend development stage**. The present ve
 
 The project will be gradually developed into a complete full-stack application with a backend, database, authentication, and persistent student records.
 
-> 🚧 **Project Status: In Development**
+>  **Project Status: In Development**
 >
 > Current version: **Frontend Prototype**
 
 ---
 
-## 📌 Current Version
+##  Current Version
 
 At the moment, this project contains only the frontend.
 
@@ -31,7 +31,7 @@ The application currently runs locally in the browser and does not have a backen
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Current
 
