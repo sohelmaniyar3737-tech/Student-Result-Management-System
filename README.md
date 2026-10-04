@@ -4,11 +4,11 @@ A frontend-based Student Result Management System built using HTML, CSS, and Jav
 
 This project is currently in the frontend development stage. It provides a responsive interface where users can enter student details and subject marks and instantly calculate and view the student's result.
 
-## 🌐 Live Demo
+##  Live Demo
 
 [View Live Project](https://sohelmaniyar3737-tech.github.io/Student-Result-Management-System/)
 
-## ✨ Features
+##  Features
 
 - Enter student information
 - Enter subject names and marks
@@ -21,23 +21,23 @@ This project is currently in the frontend development stage. It provides a respo
 - Responsive and user-friendly interface
 - Dynamic result generation using JavaScript
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5** – Structure of the application
 - **CSS3** – Styling and responsive design
 - **JavaScript** – Application logic, calculations, DOM manipulation, and event handling
 
-## 📸 Project Preview
+##  Project Preview
 
 The application provides a simple and user-friendly interface for entering student information and viewing calculated results.
 
-## 📌 Current Status
+##  Current Status
 
 **Frontend Prototype — In Development**
 
 The current version is a frontend-only application. Student data is processed in the browser and is not stored in a database.
 
-## 🚀 Future Development
+##  Future Development
 
 The project is planned to be extended into a full-stack application with:
 
@@ -48,8 +48,8 @@ The project is planned to be extended into a full-stack application with:
 - User authentication and authorization
 - Persistent student records
 
-## 👨‍💻 Developer
+##  Developer
 
-**Dholuu**
+**Sohel Maniyar**
 
 This project is being developed as part of my journey in learning web development and building full-stack applications.
