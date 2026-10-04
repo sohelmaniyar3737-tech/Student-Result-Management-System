@@ -52,4 +52,4 @@ The application currently runs locally in the browser and does not have a backen
 
 ## 🌐 Live Demo
 
-[View Live Project](https://sohelmanyar3737-tech.github.io/Student-Result-Management-System/)
+[View Live Project]( https://sohelmaniyar3737-tech.github.io/Student-Result-Management-System/)
