@@ -1,55 +1,55 @@
-#  Student Result Management System
+# Student Result Management System
 
-A Student Result Management System that I am developing as a **full-stack web application**.
+A frontend-based Student Result Management System built using HTML, CSS, and JavaScript.
 
-Currently, this project is in the **frontend development stage**. The present version focuses on designing the user interface and implementing the basic result calculation functionality using HTML, CSS, and JavaScript.
+This project is currently in the frontend development stage. It provides a responsive interface where users can enter student details and subject marks and instantly calculate and view the student's result.
 
-The project will be gradually developed into a complete full-stack application with a backend, database, authentication, and persistent student records.
+## 🌐 Live Demo
 
->  **Project Status: In Development**
->
-> Current version: **Frontend Prototype**
+[View Live Project](https://sohelmaniyar3737-tech.github.io/Student-Result-Management-System/)
 
----
-
-##  Current Version
-
-At the moment, this project contains only the frontend.
-
-The current frontend allows users to:
+## ✨ Features
 
 - Enter student information
-- Enter subject marks
+- Enter subject names and marks
 - Calculate total marks
 - Calculate percentage
-- Display the result
-- Show pass/fail status
-- Display a visual percentage indicator
-- Provide a responsive and user-friendly interface
+- Calculate grade
+- Display pass/fail status
+- Show minimum and maximum marks
+- Visual percentage indicator
+- Responsive and user-friendly interface
+- Dynamic result generation using JavaScript
 
-The application currently runs locally in the browser and does not have a backend or database.
-
----
-
-##  Technologies Used
-
-### Current
+## 🛠️ Technologies Used
 
 - **HTML5** – Structure of the application
 - **CSS3** – Styling and responsive design
 - **JavaScript** – Application logic, calculations, DOM manipulation, and event handling
 
-### Planned
+## 📸 Project Preview
 
-- **React.js** – Frontend development
-- **Node.js** – Backend runtime
-- **Express.js** – Backend/API development
-- **MongoDB** – Database
-- **REST API** – Communication between frontend and backend
-- **Authentication & Authorization** – User/admin authentication
+The application provides a simple and user-friendly interface for entering student information and viewing calculated results.
 
----
+## 📌 Current Status
 
-## 🌐 Live Demo
+**Frontend Prototype — In Development**
 
-[View Live Project]( https://sohelmaniyar3737-tech.github.io/Student-Result-Management-System/)
+The current version is a frontend-only application. Student data is processed in the browser and is not stored in a database.
+
+## 🚀 Future Development
+
+The project is planned to be extended into a full-stack application with:
+
+- React.js frontend
+- Node.js and Express.js backend
+- MongoDB database
+- REST API integration
+- User authentication and authorization
+- Persistent student records
+
+## 👨‍💻 Developer
+
+**Dholuu**
+
+This project is being developed as part of my journey in learning web development and building full-stack applications.
