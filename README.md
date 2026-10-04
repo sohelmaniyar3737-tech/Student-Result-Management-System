@@ -49,3 +49,7 @@ The application currently runs locally in the browser and does not have a backen
 - **Authentication & Authorization** – User/admin authentication
 
 ---
+
+## 🌐 Live Demo
+
+[View Live Project](https://sohelmanyar3737-tech.github.io/Student-Result-Management-System/)
